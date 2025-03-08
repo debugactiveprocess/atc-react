@@ -1,0 +1,18 @@
+title: RA_1129_query_security_logs_in_datalake  
+id: RA1129  
+description: >  
+  Utilize a Data Lake platform to query historical security logs for investigation and analysis.  
+author: 'Ialle Teixeira'  
+creation_date: 2025/03/08  
+stage: preparation  
+references:  
+  - https://en.wikipedia.org/wiki/Data_lake  
+  - https://www.sqltutorial.org/
+  - https://duckdb.org/docs/stable/
+  - https://www.dremio.com/wiki/
+requirements:  
+  - MS_datalake_platform  
+  - DN_security_logs  
+workflow: |  
+  Ensure access to a Data Lake platform where historical security logs are stored.  
+  Use SQL queries to extract relevant data for security investigations, anomaly detection, and incident response.  
